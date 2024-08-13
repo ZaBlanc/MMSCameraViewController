@@ -519,7 +519,7 @@ open class MMSCameraViewController: UIViewController {
         Removes all the created observers.
     */
     fileprivate func removeObservers() {
-        stillImageOutput.removeObserver(self, forKeyPath: "capturingStillImage")
+        // stillImageOutput.removeObserver(self, forKeyPath: "capturingStillImage")
 
         NotificationCenter.default.removeObserver(self)
     }
